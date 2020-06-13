@@ -1,33 +1,161 @@
 <!-- // First Porfolio Project  -- Eco Planet Hauling -->
 
 <!DOCTYPE html>
-
 <html lang="en">
 
-<head>
-    <title>Eco Planet Hauling Project</title>
-</head>
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    
+         <!-- build:css css/main.css -->
+            <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+            <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+            <link rel="stylesheet" href="css/styles.css" />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" />
+
+            <!-- endbuild -->
+          
+
+        <title>My First Portfolio Project</title>
+    </head>
 
 <body>
-    <div class="jumbotron">
-        <div class="container ">
-            <div class="row justify-content-center">
-            <h1>ECO PLANET HAULING</h1>
-            <div class="row">
-                <div class="col-md-7">
-                     <div class="top-bg"></div>
+<!--my header with logo -->
+    <div class="header">
+        <div class="inner_header">
+        
+            <div class="logo_container">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="img/main logo.png"  width="300px"  />
+                </div> 
+
+                <ul class="navigation">
+                    <a href="ourservice.html"><li>Our Service</li></a>
+                    <a href="aboutus.html"><li>About Us</li></a>
+                    <a href="#"><li>How To</li></a>
+                    <a href="contactus.html"><li>Contact Us</li></a>
+
+                </ul>
             </div>
-                </div>
+            <div class="contactAlert"> 
+                <h1><span>Haul Away Today!</span><br><b>1-800-555-9999</b></h1>
             </div>
-         
+        
+        
         </div>
     </div>
 
+   
+    <div class="wrapper">
+         <div class="container">
+                 <div id="bg1"> </div>
+                 <div id="bg2"> </div>
+                       
+                
+                 <div id="bg3">
+                        <!-- FORM --> 
+            
+                        <div class="contact-form">
+                           
+                                <div class="input-fields">
+                                    <div class="form-header">
+                                        <p>REQUEST DATE HERE</p>
+                                    </div>
+                                    <input type="text" class="input" placeholder="Name">
+                                    <input type="text" class="input" placeholder="Phone">
+                                    <input type="text" class="input" placeholder="Email">
+                                    <input type="text" class="input" placeholder="Request Date">
+                                    <textarea placeholder="Job description"></textarea>
+                                        <div id="button ">
+                                            <input type="submit" value="Submit">
+                                        </div>
+                                </div>
+                        </div>
+                 </div>
+                 <div id="bg4">
+                     <div class="boxtesti1">
+                        <img id="testi1" src="img/testi1.JPG">
+                        <p class="leftp"><span style="font-style: italic;">Excellent service. Most reasonable prices in town. I had to get a sofa and love seat hauled away. I was able to set it up the same day the new furniture was being delivered.</span>
+                            MICHAEL A., HOUSTON, TX</p>
+                    </div>
+                    <div class="boxtesti2">
+                        <img id="testi2" src="img/testi2.jpg">
+                        <p class="rightp">Reforestation effort aims to help residents recover from the many wildfires that have burned through California, including the Carr and Camp Fires.</p>
+                    </div>
+                 </div>
+                         
+                 
+          </div>
+    </div>
+    
+         
+  
+    <!-- FOOTER --> 
+
+    <footer class="site-footer">
+        <div class="footer">
+            <div class="row">
+                <div class="col -4 col -sm-2 offset-1">
+                    <img class="rdlogo" src="img/rdlogo.png">
+                    <div class="footer-nav">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-sm-5 text-center" >
+                <div class="social">
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                </div>
+                </div>
+                
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+8005559999"><i class="fa fa-phone"></i> 1-800-555-9999</a><br />
+                    <a role="button" class="btn btn-link" href="ecoplanethauling@mail.com"><i class="fa fa-envelope-o"></i> ecoplanethauling@mail.com</a>
+                </div>
+                
+            </div>
+        </div>
+    </footer> 
+
+
+      
+
+   
 
 
 
+    <!-- build:js js/main.js-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+    <!-- carousel function jQuery-->
+
+    <script src="js/scripts.js">
+
+    
+    </script>
+
+    <!-- endbuild-->
+
+
+   
+
+   
 
 </body>
-</html>
 
+</html>
